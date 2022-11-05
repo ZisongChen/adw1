@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+}
+
+.wiki-item {
+  margin-right: 10px;
+  margin-left: 10px;
+  box-shadow: 5px 10px #888888;
+}
+.wiki-img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .wiki-content {
+    display: flex;
+    flex-flow: row-reverse;
+  }
+  .wiki-text {
+    max-width: 50%;
+  }
+  .img-container {
+    min-width: 50%;
+  }
+  .wiki-content {
+    padding: 10px;
+  }
+  .wiki-header {
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
